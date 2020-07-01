@@ -10,4 +10,4 @@ before_install:
         - cp .netrc ~/.netrc
         - chmod 600 ~/.netrc
 
-script: go test -v ./...
+script: go test -v ./.../test
