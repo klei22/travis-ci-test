@@ -6,8 +6,8 @@ go:
         - 1.11.x
         - master
 
-before_install:
-        - cp .netrc ~/.netrc
-        - chmod 600 ~/.netrc
+# before_install:
+#         - cp .netrc ~/.netrc
+#         - chmod 600 ~/.netrc
 
 script: go test -v ./...
