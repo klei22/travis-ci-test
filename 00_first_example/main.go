@@ -1,8 +1,6 @@
 package main
 
-import "fmt"
-
-func add1(x int) {
+func add1(x int) int {
 	return x + 1
 }
 
